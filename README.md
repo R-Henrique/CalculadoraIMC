@@ -3,6 +3,7 @@
 ## Funcionalidades 
 
 -  Calcula o IMC
+-  Funcionalidade de consulta do IMC
 
 ## Tecnologias
 
