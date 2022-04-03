@@ -1,6 +1,7 @@
 ﻿using System;
 
 namespace CalculadoraIMC
+namespace CalculadoraIMC
 {
     class Program
     {
@@ -16,6 +17,7 @@ namespace CalculadoraIMC
             float peso = Convert.ToSingle(Console.ReadLine());
 
             double imc = peso / (altura * altura);
+            
 
             Console.WriteLine(
                 "{0} sua altura é {1} e seu peso {2}",
@@ -23,22 +25,35 @@ namespace CalculadoraIMC
             );
 
             Console.WriteLine("Seu IMC é {0}", imc);
-            {
-            if (imc < 17,00)
-            Console.WriteLine("Você  está muito abaixo do peso", imc);
-            if (imc > = 17,00 && imc < 18,49)
-            Console.WriteLine("Você  está abaixo do peso", imc);
-            if (imc > = 18,50 && imc < 24,99)
-            Console.WriteLine("Você está com peso normal", imc);
-            if (imc > = 25,00 && imc < 29,99)
-            Console.WriteLine("Você está acima do peso", imc);
-            if (imc > = 30,00 && imc < 34,99)
-            Console.WriteLine("Você esta com obesidade ");
-            if (imc > = 35,99 && imc < 39,99)
-            Console.WriteLine("Você esta com obesidade severa ", imc);
-            if (imc > 40,00)
-            Console.WriteLine("Você esta com  obesidade morbida", imc);
+         
+            
+            
+             
+            if (imc < 17){
+            Console.WriteLine("Você  está muito abaixo do peso");
             }
+            if (imc >= 17 && imc < 18.49){
+            Console.WriteLine("Você  está abaixo do peso");
+            }
+            if (imc >= 18.50 && imc < 24.99){
+            Console.WriteLine("Você está com peso normal");
+            }
+            if (imc >= 25 && imc < 29.99){
+            Console.WriteLine("Você está acima do peso");
+            }
+            if (imc >= 30 && imc < 34.99){
+            Console.WriteLine("Você esta com obesidade ");
+            }
+            if (imc >= 35.99 && imc < 39.99){
+            Console.WriteLine("Você esta com obesidade severa ");
+            }
+            if (imc > 40){
+            Console.WriteLine("Você esta com  obesidade morbida");
+            }
+            
+            
+            
+           
         }
     }
 }
